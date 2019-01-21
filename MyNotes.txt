@@ -1,0 +1,72 @@
+https://www.youtube.com/watch?v=R9GYRBDqxI8&list=PLsrZV8shpwjNuvhvotOuzRCQGcqscCekJ
+Popular NPM Modules
+underscore
+async
+request
+lodash
+commander
+express
+optimist
+coffe-script
+
+NPM - Node Package Manager
+- Bundled and installed automatically with the environment
+
+Frequent usage
+- npm install - save package name
+- npm update
+
+How does it working
+- Instal dependencies in the local node module folder
+- In global mode , make a node module accessable to all
+- can install from folder , tarbal and web etc
+- can specify dev and optional depedencies
+
+- NPM can also install the depedencies for a project by reading the package.json
+
+Async Modules - utility module which provides straight forward , powerfull function for working with asynchronouse javascript
+ async.map
+ async.filter
+ async.parallel
+ async.series
+
+Request Modules - Designated to be the simplest way possible to make http calls.
+It supports HTTPS, streaming and follows redirect by default
+
+
+
+Using Node.js with VS Code: 02 Introduction to Express
+--github.com/sayar/NodeMVA
+https://www.youtube.com/watch?v=GGrtjNbpEDo&index=2&list=PLsrZV8shpwjNuvhvotOuzRCQGcqscCekJ
+What is Express
+Installing and using express
+DEMO : Creating a simple REST API
+Templating
+
+What is Express?
+- express is a minimal, open source and flexible node.js web.app frameworks designed to make developing websites, web apss and API's much easier
+- Support multiple templating engines to simplify generating HTML
+
+Installing Express
+- npm install express
+- npm install jade
+
+02 - Creating a Simple REST API
+
+Explanation of Routes
+- A router maps HTTP request to a callback
+- HTTP request can be sent as GET/POST/PUT/DELETE etc
+- URLs describe the location of targeted
+- Nodes helps you map a HTTP GET request likeL:
+	- http://localhost:8888/index
+- To a request handler (callback)
+ app.get('/index', function(req,res){});
+ 
+ 
+ DEMO 
+ Using Express for Multiple Pages
+ 
+ 
+BUILDING RESTful API for Dogs
+
+
